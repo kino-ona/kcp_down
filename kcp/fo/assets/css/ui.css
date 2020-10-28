@@ -1246,7 +1246,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .recomm .board_list ul { overflow: hidden; }
 
-.more_info { padding-top: 60px; padding-bottom: 60px; }
+.more_info { position: relative; padding-top: 60px; padding-bottom: 60px; }
 
 .more_info .title { margin-bottom: 25px; font-size: 24px; font-weight: 500; }
 
@@ -1958,6 +1958,18 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .layer_body.vodpop .layer_cont { padding: 0; padding-top: 30px; }
 
 .layer_body.vodpop iframe { width: 100%; height: 100%; }
+
+.solution_view { max-width: 1200px; margin: 0 auto; }
+
+.solution_view .sol_title { display: block; margin-bottom: 65px; font-size: 40px; font-weight: 500; }
+
+.solution_view .sub_block { margin-bottom: 50px; }
+
+.solution_view .sub_block dt { margin-bottom: 45px; }
+
+.solution_view .sub_block h2 { position: relative; margin-bottom: 40px; font-size: 26px; font-weight: 700; }
+
+.solution_view .sub_block h2 > span { display: inline-block; margin-left: 5.625rem; font-size: 16px; font-weight: 400; vertical-align: middle; }
 
 .header:after, .headgnb .menu:after, .subgnb .submenu:after, .footer .row:after, .footer .util:after, .cust_inquiry:after, .cust_inquiry .frm_group:after, .search_wrap .recom_keyword > div:after, [class*='_col'] ul:after, .order_list.type2 .info:after, .addphoto:after, .container:after, .container .conts:after, .searchcnts .nodata_recom .product_tree:after, .slide_page:after, .item_link:after, .introduction .details:after, .introduction .prd_info .code:after, .introduction .prd_spec:after, .custom .frm_group:after { content: ""; display: block; clear: both; }
 
