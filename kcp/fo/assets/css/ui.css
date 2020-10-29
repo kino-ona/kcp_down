@@ -1240,6 +1240,40 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont p:last-child { padding-bottom: 0; }
 
+.borad_wrap .board_cont dl { margin-bottom: 40px; }
+
+.borad_wrap .board_cont dl dt { margin-bottom: 10px; font-weight: 700; }
+
+.borad_wrap .board_cont dl dd { font-weight: 300; }
+
+.borad_wrap .board_cont dl dd em { font-size: inherit; font-weight: 400; vertical-align: baseline; }
+
+.borad_wrap .board_cont dl dd + dt { margin-top: 20px; }
+
+.borad_wrap .board_cont dl.type_ico [class^="ico_"] { display: inline-block; width: 36px; height: 36px; margin: 10px 18px 10px 0; vertical-align: middle; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer01 { background: url(../images/workplace/icon_health_01.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer02 { background: url(../images/workplace/icon_health_02.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer03 { background: url(../images/workplace/icon_health_03.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer04 { background: url(../images/workplace/icon_health_04.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer05 { background: url(../images/workplace/icon_health_05.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel01 { background: url(../images/workplace/icon_health_06.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel02 { background: url(../images/workplace/icon_health_07.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel03 { background: url(../images/workplace/icon_health_08.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel04 { background: url(../images/workplace/icon_health_09.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel05 { background: url(../images/workplace/icon_health_10.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont sup { vertical-align: super; font-size: 10px; }
+
 .borad_wrap .board_cont .keyvisual { display: -webkit-box; display: -ms-flexbox; display: flex; height: 600px; margin-bottom: 100px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .borad_wrap .board_cont .keyvisual .img { position: relative; width: 600px; margin: 0; }
@@ -1256,6 +1290,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .img figure { display: inline-block; }
 
+.borad_wrap .board_cont .img figure img { max-width: 283px; }
+
 .borad_wrap .board_cont .img figure:last-child { margin-left: 84px; }
 
 .borad_wrap .board_cont .img figcaption { margin-bottom: 20px; font-size: 20px; text-align: center; }
@@ -1263,6 +1299,20 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .borad_wrap .board_cont .img figcaption strong { font-size: inherit; font-weight: 700; }
 
 .borad_wrap .board_cont .img:last-child { margin-bottom: 0; }
+
+.borad_wrap .board_cont .subtit { margin-bottom: 10px; font-size: 22px; }
+
+.borad_wrap .board_cont .subtit:before { content: ''; display: block; width: 35px; height: 2px; margin-bottom: 30px; background-color: #000; }
+
+.borad_wrap .board_cont .subtit strong { font-size: inherit; font-weight: 700; }
+
+.borad_wrap .board_cont .subtit + .img { margin-top: 50px; }
+
+.borad_wrap .board_cont .footnote { border-top: 2px solid #eee; padding-top: 20px; }
+
+.borad_wrap .board_cont .footnote li { font-size: 14px; font-weight: 300; color: #666; padding-left: 16px; text-indent: -16px; }
+
+.borad_wrap .board_cont .health .keyvisual, .borad_wrap .board_cont .eco .keyvisual { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
 
 .borad_wrap .attach { margin-top: 40px; }
 

@@ -1104,6 +1104,46 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont p:not(.summary):last-child { padding-bottom: 0; }
 
+.borad_wrap .board_cont dl { margin-bottom: 30px; }
+
+.borad_wrap .board_cont dl dt { margin-bottom: 10px; font-size: 14px; font-weight: 700; }
+
+.borad_wrap .board_cont dl dd { font-size: 14px; font-weight: 300; }
+
+.borad_wrap .board_cont dl dd em { font-size: inherit; font-weight: 400; vertical-align: baseline; }
+
+.borad_wrap .board_cont dl dd + dt { margin-top: 20px; }
+
+.borad_wrap .board_cont dl.type_ico dd { position: relative; margin-bottom: 10px; padding-left: 42px; text-indent: 0; }
+
+.borad_wrap .board_cont dl.type_ico dd:last-child { margin-bottom: 0; }
+
+.borad_wrap .board_cont dl.type_ico [class^="ico_"] { position: absolute; top: 4px; left: 0; width: 30px; height: 30px; vertical-align: middle; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer01 { background: url(../images/workplace/icon_health_01.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer02 { background: url(../images/workplace/icon_health_02.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer03 { background: url(../images/workplace/icon_health_03.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer04 { background: url(../images/workplace/icon_health_04.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_dryer05 { background: url(../images/workplace/icon_health_05.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel01 { background: url(../images/workplace/icon_health_06.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel02 { background: url(../images/workplace/icon_health_07.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel03 { background: url(../images/workplace/icon_health_08.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel04 { background: url(../images/workplace/icon_health_09.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont dl.type_ico .ico_handtowel05 { background: url(../images/workplace/icon_health_10.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont.type_indent dd { padding-left: 10px; text-indent: -10px; }
+
+.borad_wrap .board_cont sup { vertical-align: super; font-size: 10px; }
+
 .borad_wrap .board_cont .keyvisual { position: relative; }
 
 .borad_wrap .board_cont .keyvisual .img { position: relative; margin-bottom: 75px; }
@@ -1125,6 +1165,24 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .borad_wrap .board_cont .img figcaption strong { font-size: inherit; font-weight: 700; }
 
 .borad_wrap .board_cont .img:last-child { margin-bottom: 0; }
+
+.borad_wrap .board_cont .subtit { margin-bottom: 10px; font-size: 15px; }
+
+.borad_wrap .board_cont .subtit:before { content: ''; display: block; width: 25px; height: 1px; margin-bottom: 20px; background-color: #000; }
+
+.borad_wrap .board_cont .subtit strong { font-size: inherit; font-weight: 700; }
+
+.borad_wrap .board_cont .subtit + .img { margin-top: 50px; }
+
+.borad_wrap .board_cont .footnote { border-top: 1px solid #eee; padding-top: 20px; }
+
+.borad_wrap .board_cont .footnote li { font-size: 12px; font-weight: 300; color: #666; padding-left: 12px; text-indent: -12px; }
+
+.borad_wrap .board_cont .health .keyvisual .summary, .borad_wrap .board_cont .eco .keyvisual .summary { padding-bottom: 28px; }
+
+.borad_wrap .board_cont .health .keyvisual .img, .borad_wrap .board_cont .eco .keyvisual .img { margin-bottom: 40px; }
+
+.borad_wrap .board_cont .health .keyvisual .img:before, .borad_wrap .board_cont .eco .keyvisual .img:before { display: none; }
 
 .borad_wrap + .borad_wrap { border-top: 10px solid #f2f4f6; }
 
