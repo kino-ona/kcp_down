@@ -164,7 +164,7 @@
 
 .main .brand_sec .row .desc { padding-top: 10px; }
 
-.main .brand_sec .row .img { position: absolute; bottom: -90px; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); width: 100%; max-width: 260px; }
+.main .brand_sec .row .img { position: absolute; bottom: -60px; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); width: 100%; max-width: 260px; }
 
 .partner_wrap .app_link > ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
