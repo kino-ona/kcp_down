@@ -160,11 +160,11 @@
 
 .main .brand_sec .container-top { padding-bottom: 125px; }
 
-.main .brand_sec .container-top .swiper-slide { background-size: cover; background-position: center 0; }
+.main .brand_sec .container-top .swiper-slide { height: 740px; background-size: cover; background-position: center 0; }
 
 .main .brand_sec .container-top .swiper-slide:before { content: ''; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
 
-.main .brand_sec .row { position: relative; max-width: 1280px; margin: 0 auto; padding: 110px 0 0; z-index: 1; }
+.main .brand_sec .row { position: relative; max-width: 1280px; height: 100%; margin: 0 auto; padding: 110px 0 0; z-index: 1; }
 
 .main .brand_sec .row p { color: #fff; }
 
@@ -174,9 +174,9 @@
 
 .main .brand_sec .row .desc { position: absolute; right: 0; padding-top: 10px; width: 360px; color: #fff; }
 
-.main .brand_sec .row .desc p:not(.eng) { line-height: 2; white-space: normal; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; font-weight: 300; }
+.main .brand_sec .row .desc p:not(.eng) { line-height: 2; font-weight: 300; }
 
-.main .brand_sec .row .img { max-width: 490px; margin: 0 auto -120px; }
+.main .brand_sec .row .img { position: absolute; bottom: -130px; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); max-width: 490px; }
 
 .main .brand_sec .row .btn_more { margin-left: 0; color: #fff; font-weight: 450; }
 
