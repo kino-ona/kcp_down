@@ -48,9 +48,7 @@
 		<div class="counsel_wrap">
 			<div class="row">
 				<dl class="cust_call">
-					<dt>상담전화
-						<a href="#" class="btn_view">1 : 1 문의</a>
-					</dt>
+					<dt>상담전화</dt>
 					<dd>
 						<a href="tel:1588 - 5332" class="btn_line">1588 - 5332</a>
 						<p>평일 : 09:00 ~ 17:30 / 토, 일요일 및 공유일 휴무</p>
@@ -67,34 +65,12 @@
 			</div>
 
 			<hr>
+			<!-- 11.06 : 입력필드 순서변경 -->
 			<div class="row">
 				<dl class="frm_group">
 					<dt><label for="frm1">성명 <span class="required"><span class="a11y">필수</span></span></label></dt>
 					<dd class="inpwrap">
 						<input type="text" id="frm1" value="" placeholder="서울시 강남구 삼성동 123-4">
-					</dd>
-				</dl>
-				<dl class="frm_group">
-					<dt><label for="frm2">이메일 <span class="required"><span class="a11y">필수</span></span></label></dt>
-					<dd class="mix_half">
-						<div class="inpwrap email">
-							<p><input type="text" id="frm2" value="" placeholder=""></p>
-							<p><input type="text" id="" placeholder="직접입력"></p>
-						</div>
-						<select>
-							<option>이메일 선택</option>
-							<option>naver.com</option>
-						</select>
-					</dd>
-				</dl>
-				<dl class="frm_group">
-					<dt><label for="frm3">전화번호 <span class="required"><span class="a11y">필수</span></span></label></dt>
-					<dd class="mix">
-						<select>
-							<option>02</option>
-							<option>02</option>
-						</select>
-						<input type="text" id="frm3">
 					</dd>
 				</dl>
 				<dl class="frm_group">
@@ -112,6 +88,33 @@
 						</div>
 					</dd>
 				</dl>
+				
+				<!-- 이메일답변 선택한 경우 -->
+				<dl class="frm_group">
+					<dt><label for="frm2">이메일 <span class="required"><span class="a11y">필수</span></span></label></dt>
+					<dd class="mix_half">
+						<div class="inpwrap email">
+							<p><input type="text" id="frm2" value="" placeholder=""></p>
+							<p><input type="text" id="" placeholder="직접입력"></p>
+						</div>
+						<select>
+							<option>이메일 선택</option>
+							<option>naver.com</option>
+						</select>
+					</dd>
+				</dl>
+				<!--// 이메일답변 선택한 경우 -->
+				<!-- 전화답변 선택한 경우 -->
+				<dl class="frm_group">
+					<dt><label for="frm3">전화번호 <span class="required"><span class="a11y">필수</span></span></label></dt>
+					<dd class="mix">
+						<select>
+							<option>02</option>
+							<option>02</option>
+						</select>
+						<input type="text" id="frm3">
+					</dd>
+				</dl>
 				<dl class="frm_group">
 					<dt><label>희망답변일시 <span class="required"><span class="a11y">필수</span></span></label></dt>
 					<dd class="mix_half">
@@ -126,6 +129,8 @@
 						</div>
 					</dd>
 				</dl>
+				<!--// 전화답변 선택한 경우 -->
+				
 				<dl class="frm_group">
 					<dt><label>내용 <span class="required"><span class="a11y">필수</span></span></label></dt>
 					<dd>
@@ -133,6 +138,7 @@
 					</dd>
 				</dl>
 			</div>
+			<!--// 11.06 : 입력필드 순서변경 -->
 		</div>
 
 		<!-- sticky button -->
@@ -245,6 +251,47 @@
 			<li><button class="" data-tab="gnb-4">솔루션</button></li>
 			<li><button class="" data-tab="gnb-5">현장혁신정보</button></li>
 			<li><button class="" data-tab="gnb-6">고객서비스</button></li>
+			<li class="comm">
+				<!-- 20201005 추가 -->
+				<div id="recombnrswipe" class="swiper-container reomm_bnr">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide01">
+							<p class="figure"><img src="./assets/images/common/reom_bnr01.png" alt="크리넥스 센터풀 화장지"></p>
+							<div class="info">
+								<a href="#">
+									<p class="btn_more">크리넥스 센터풀 <i></i></p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide slide02">
+							<p class="figure"><img src="./assets/images/common/reom_bnr02.png" alt="크리넥스 에어셀 점보롤"></p>
+							<div class="info">
+								<a href="#">
+									<p class="btn_more">크리넥스 에어셀 점보롤 <i></i></p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide slide03">
+							<p class="figure"><img src="./assets/images/common/reom_bnr03.png" alt="크리넥스 드라이셀"></p>
+							<div class="info">
+								<a href="#">
+									<p class="btn_more">크리넥스 드라이셀 <i></i></p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide slide04">
+							<p class="figure"><img src="./assets/images/common/reom_bnr04.png" alt="와이프올 에어포켓"></p>
+							<div class="info">
+								<a href="#">
+									<p class="btn_more">와이프올 에어포켓 <i></i></p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<!--// 20201005 추가 -->
+			</li>
 		</ul>
 		<div class="tab_contents submenu">
 			<!-- 파트너정보 -->
@@ -413,7 +460,7 @@
 						</div>
 						<div class="acco_panel">
 							<ul>
-								<li><a href="#">와이퍼</a></li>
+								<li><a href="#">개인안전 보호구</a></li> <!-- 10.15 //-->
 							</ul>
 						</div>
 					</div>
@@ -452,57 +499,62 @@
 				<div class="accord_wrap" role="submenu">
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">푸드 프로세싱&amp;서비스</a>
-						</div>
-					</div>
-					<div class="item" data-status="hidden">
-						<div class="acco_head">
 							<a href="#" class="acco_target" tabindex="0">공중화장실</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">오피스의 위생</a>
+							<a href="#" class="acco_target" tabindex="0">산업체생산공정</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">크린룸</a>
+							<a href="#" class="acco_target" tabindex="0">푸드 프로세싱&amp;서비스</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">실험실</a>
+							<a href="#" class="acco_target" tabindex="0">병의원 및 요양시설</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">개인보호구</a>
+							<a href="#" class="acco_target" tabindex="0">클린룸 &amp; 실험실</a>
+						</div>
+					</div>
+					<div class="item" data-status="hidden">
+						<div class="acco_head">
+							<a href="#" class="acco_target" tabindex="0">방역현장</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 현장 혁신 정보 -->
+			<!-- 현장인사이트 -->
 			<div id="gnb-5" class="tab-cont">
 				<div class="accord_wrap" role="submenu">
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">건강과 안전</a>
+							<a href="#" class="acco_target" tabindex="0">위생과 건강</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">고객경험</a>
+							<a href="#" class="acco_target" tabindex="0">작업자와 공정 보호</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">생산효율성</a>
+							<a href="#" class="acco_target" tabindex="0">생산효율성 증대</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">우리의 환경</a>
+							<a href="#" class="acco_target" tabindex="0">친환경 가치실현</a>
+						</div>
+					</div>
+					<div class="item" data-status="hidden">
+						<div class="acco_head">
+							<a href="#" class="acco_target" tabindex="0">제품과 적용사례</a>
 						</div>
 					</div>
 				</div>
@@ -512,7 +564,7 @@
 				<div class="accord_wrap" role="submenu">
 					<div class="item" data-status="hidden">
 						<div class="acco_head">
-							<a href="#" class="acco_target" tabindex="0">제품구매 상담</a>
+							<a href="#" class="acco_target" tabindex="0">제품구매 문의</a>
 						</div>
 					</div>
 					<div class="item" data-status="hidden">
@@ -574,7 +626,8 @@
 </div>
 <!--// fixed menu -->
 
-<footer class="footer">
+<!-- 09.16 제품상세 클래스(_etc) 추가 //-->
+<footer class="footer ">
 	<div class="social">
 		<a href="#">유한킴벌리 프로페셔널<br><span>카카오톡 플러스</span> 친구 추가하기</a>
 	</div>
@@ -591,7 +644,7 @@
 				<a href="tel:1588-5332" class="tel">1588-5332</a>
 			</div>
 			<div>
-				<a href="#" class="btn-cust">구매상담</a>
+				<a href="#" class="btn-cust">구매문의</a>
 			</div>
 		</div>
 

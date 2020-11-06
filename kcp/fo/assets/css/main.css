@@ -6,15 +6,11 @@
 
 .main .btn_more i { display: inline-block; width: 7px; height: 7px; margin-top: -2px; border-top: 1px solid #333; border-right: 1px solid #333; -webkit-transform: rotate(45deg); transform: rotate(45deg); vertical-align: middle; }
 
-.main .keyvisual { margin: 0 100px; }
+.main .keyvisual { position: relative; margin: 0 100px; height: calc(100vh - 100px); }
 
-.main .keyvisual .figure { padding-top: 42.778%; background-size: cover; background-position: center 0; background-repeat: no-repeat; }
+.main .keyvisual .figure { width: 100%; height: 100%; background-size: cover; background-position: center 0; background-repeat: no-repeat; overflow: hidden; }
 
-.main .keyvisual .info { width: 50%; padding: 40px 50px 24px; background-color: #fff; }
-
-.main .keyvisual .info .title { font-size: 26px; font-weight: 700; }
-
-.main .keyvisual .info .desc { font-weight: 300; }
+.main .keyvisual .swiper-container { height: calc(100vh - 250px); }
 
 .main .section { padding: 70px 0 0; }
 
@@ -30,9 +26,33 @@
 
 .main .kvpage .swiper-counter span.cur { color: #000; }
 
+.main .kvnavi { position: absolute; left: 0; bottom: 0; }
+
+.main .kvnavi > div { position: relative; }
+
+.main .kvnavi .swiper-button-next, .main .kvnavi .swiper-button-prev { width: 60px; height: 60px; top: inherit; bottom: 0; }
+
+.main .kvnavi .swiper-button-next { right: inherit; left: 60px; background-image: url(../images/common/btn_kv-next.jpg); background-size: 100%; background-repeat: no-repeat; background-position: 0 0; }
+
+.main .kvnavi .swiper-button-next:hover { background-image: url(../images/common/btn_kv-next_over.jpg); }
+
+.main .kvnavi .swiper-button-prev { left: 0; background-image: url(../images/common/btn_kv-prev.jpg); background-size: 100%; background-repeat: no-repeat; background-position: 0 0; }
+
+.main .kvnavi .swiper-button-prev:hover { background-image: url(../images/common/btn_kv-prev_over.jpg); }
+
+.main .kvdesc_area { position: absolute; left: 0; bottom: 0; width: 55%; }
+
+.main .kvdesc_area .info { display: none; width: 100%; padding: 0 0 24px 50px; background-color: #fff; vertical-align: top; }
+
+.main .kvdesc_area .info .title { font-size: 26px; font-weight: 700; }
+
+.main .kvdesc_area .info .desc { min-height: 56px; font-weight: 300; }
+
+.main .kvdesc_area .info.show { display: block; }
+
 .main .swiper-pagination-progressbar { width: 150px; height: 1px; }
 
-.main .swiper-pagination-progressbar .swiper-pagination-progressbar-fill { background: #000; }
+.main .swiper-pagination-progressbar .swiper-pagination-progressbar-fill { background: #000; height: 1.5px; }
 
 .main .section h3 { display: block; padding-bottom: 60px; font-size: 40px; text-align: center; }
 
@@ -340,9 +360,9 @@
 
 .partner_status .qty_list .qty { font-size: 22px; font-weight: 700; }
 
-.insight_sec .row { max-width: 1200px; margin: 0 auto; padding: 60px 40px 40px; }
+.insight_sec .row { max-width: 1200px; margin: 0 auto; padding: 60px 0 40px; }
 
-.insight_sec .item { position: relative; float: left; width: calc((100% / 4) - 20px); height: 450px; margin-right: 20px; padding: 45px; background-color: #f2f4f6; overflow: hidden; }
+.insight_sec .item { position: relative; float: left; width: calc((100% / 4) - 20px); height: 380px; margin-right: 20px; padding: 45px; background-color: #eef8fe; overflow: hidden; }
 
 .insight_sec .item:last-child { margin-right: 0; }
 

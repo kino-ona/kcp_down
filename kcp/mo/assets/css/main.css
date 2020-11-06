@@ -344,7 +344,7 @@
 
 .insight_sec .row { margin: 0 30px; }
 
-.insight_sec .item { position: relative; float: left; width: calc((100% / 2) - 1px); margin-right: 2px; margin-bottom: 2px; padding: 20px 20px 26.83%; background-color: #f2f4f6; }
+.insight_sec .item { position: relative; float: left; width: calc((100% / 2) - 1px); margin-right: 2px; margin-bottom: 2px; padding: 20px 20px 26.83%; background-color: #eef8fe; }
 
 .insight_sec .item:nth-child(2n) { margin-right: 0; }
 
@@ -356,9 +356,9 @@
 
 .insight_sec .item .btn_more i { width: 5px; height: 5px; margin-top: -3px; }
 
-.insight_sec .item .figure { position: absolute; right: 20px; bottom: 20px; text-align: right; }
+.insight_sec .item .figure { position: absolute; right: 0; bottom: 0; text-align: right; }
 
-.insight_sec .item .figure img { max-width: 40px; }
+.insight_sec .item .figure img { max-width: 50%; }
 
 @media screen and (min-width: 440px) and (max-width: 769px) { .insight_sec .row { max-width: 370px; margin: 0 auto; } }
 
