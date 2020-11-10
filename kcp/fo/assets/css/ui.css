@@ -1813,7 +1813,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .desc_wrapper .info .title a { font-size: inherit; font-weight: inherit; }
 
-.desc_wrapper .info .desc { font-weight: 500; color: #666666; }
+.desc_wrapper .info .desc { font-size: 16px; font-weight: 500; color: #666666; }
 
 .item_link li { float: left; margin-right: 20px; margin-bottom: 20px; }
 
