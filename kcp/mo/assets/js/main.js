@@ -8,7 +8,7 @@ if($('#kvswipe').length > 0){
 		observeParents: true,
 		pagination: {
 			el: '.kvpage .swiper-pagination',
-			type: 'progressbar',clickable : true,
+			type: 'progressbar',
 		},
 		observer: true,
 		observeParents: true,

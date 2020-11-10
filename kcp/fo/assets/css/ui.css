@@ -396,9 +396,7 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 
 .subgnb .submenu > li:first-child { padding-left: 0; border-left: 0; }
 
-.subgnb .submenu > li a { display: block; width: 100%; letter-spacing: -1px; }
-
-.subgnb .submenu > li a:hover { color: #0053a7; }
+.subgnb .submenu > li a { display: block; width: 100%; letter-spacing: -1px; cursor: inherit; }
 
 .subgnb .submenu > li a.ti { font-weight: 450; }
 
@@ -406,7 +404,9 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 
 .subgnb .submenu > li ul li { padding-top: 5px; }
 
-.subgnb .submenu > li ul li a { font-weight: 300; }
+.subgnb .submenu > li ul li a { font-weight: 300; cursor: pointer; }
+
+.subgnb .submenu > li ul li a:hover { color: #0053a7; }
 
 .subgnb .submenu.show { display: inline-block; }
 
@@ -1234,9 +1234,11 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont { overflow: hidden; font-size: 16px; font-weight: 300; }
 
-.borad_wrap .board_cont p { padding-bottom: 60px; font-weight: inherit; }
+.borad_wrap .board_cont p:not(.summary) { margin-bottom: 60px; font-weight: 300; }
 
-.borad_wrap .board_cont p:last-child { padding-bottom: 0; }
+.borad_wrap .board_cont p:not(.summary):last-child { margin-bottom: 0; }
+
+.borad_wrap .board_cont a { color: #1d32fa; font-weight: 300; }
 
 .borad_wrap .board_cont dl { margin-bottom: 40px; }
 
@@ -1248,29 +1250,19 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont dl dd + dt { margin-top: 20px; }
 
-.borad_wrap .board_cont dl.type_ico [class^="ico_"] { display: inline-block; width: 36px; height: 36px; margin: 10px 18px 10px 0; vertical-align: middle; }
+.borad_wrap .board_cont dl.type_indent dt { font-weight: 400; }
 
-.borad_wrap .board_cont dl.type_ico .ico_dryer01 { background: url(../images/workplace/icon_health_01.jpg) no-repeat 50% 50%/cover; }
+.borad_wrap .board_cont dl.type_indent dd { padding-left: 12px; }
 
-.borad_wrap .board_cont dl.type_ico .ico_dryer02 { background: url(../images/workplace/icon_health_02.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_dryer03 { background: url(../images/workplace/icon_health_03.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_dryer04 { background: url(../images/workplace/icon_health_04.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_dryer05 { background: url(../images/workplace/icon_health_05.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_handtowel01 { background: url(../images/workplace/icon_health_06.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_handtowel02 { background: url(../images/workplace/icon_health_07.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_handtowel03 { background: url(../images/workplace/icon_health_08.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_handtowel04 { background: url(../images/workplace/icon_health_09.jpg) no-repeat 50% 50%/cover; }
-
-.borad_wrap .board_cont dl.type_ico .ico_handtowel05 { background: url(../images/workplace/icon_health_10.jpg) no-repeat 50% 50%/cover; }
+.borad_wrap .board_cont dl + .subtit { margin-top: 60px; }
 
 .borad_wrap .board_cont sup { vertical-align: super; font-size: 10px; }
+
+.borad_wrap .board_cont ul li, .borad_wrap .board_cont ol li { font-weight: 300; }
+
+.borad_wrap .board_cont ul li > ul, .borad_wrap .board_cont ol li > ul { padding-left: 30px; }
+
+.borad_wrap .board_cont [class^="ico_"] { display: inline-block; width: 36px; height: 36px; margin: 10px 18px 10px 0; vertical-align: middle; }
 
 .borad_wrap .board_cont .keyvisual { display: -webkit-box; display: -ms-flexbox; display: flex; height: 600px; margin-bottom: 100px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
@@ -1282,17 +1274,19 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .keyvisual .summary { width: 480px; margin-left: auto; font-size: 22px; line-height: 36px; }
 
+.borad_wrap .board_cont .keyvisual .summary strong { font-size: inherit; font-weight: 500; }
+
+.borad_wrap .board_cont .keyvisual .summary span { font-size: inherit; font-weight: 300; }
+
 .borad_wrap .board_cont .keyvisual:after { content: ''; display: block; clear: both; }
 
 .borad_wrap .board_cont .img { width: 650px; margin: 0 auto 60px; font-size: 0; }
 
-.borad_wrap .board_cont .img figure { display: inline-block; }
-
-.borad_wrap .board_cont .img figure img { max-width: 283px; }
+.borad_wrap .board_cont .img figure { display: inline-block; max-width: 283px; text-align: center; }
 
 .borad_wrap .board_cont .img figure:last-child { margin-left: 84px; }
 
-.borad_wrap .board_cont .img figcaption { margin-bottom: 20px; font-size: 20px; text-align: center; }
+.borad_wrap .board_cont .img figcaption { margin-bottom: 20px; font-size: 20px; }
 
 .borad_wrap .board_cont .img figcaption strong { font-size: inherit; font-weight: 700; }
 
@@ -1306,11 +1300,127 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .subtit + .img { margin-top: 50px; }
 
-.borad_wrap .board_cont .footnote { border-top: 2px solid #eee; padding-top: 20px; }
+.borad_wrap .board_cont .footnote { margin-top: 60px; border-top: 2px solid #eee; padding-top: 20px; }
 
 .borad_wrap .board_cont .footnote li { font-size: 14px; font-weight: 300; color: #666; padding-left: 16px; text-indent: -16px; }
 
-.borad_wrap .board_cont .health .keyvisual, .borad_wrap .board_cont .eco .keyvisual { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.borad_wrap .board_cont .text_box h4 { margin-bottom: 10px; font-weight: 700; }
+
+.borad_wrap .board_cont .text_box p { margin-bottom: 20px; }
+
+.borad_wrap .board_cont .text_box p:last-child { margin-bottom: 0; }
+
+.borad_wrap .board_cont .text_box dl { margin-bottom: 20px; }
+
+.borad_wrap .board_cont .text_box dl dt { font-weight: 400; }
+
+.borad_wrap .board_cont .text_box ul { margin-bottom: 20px; }
+
+.borad_wrap .board_cont .text_box + .subtit { margin-top: 60px; }
+
+.borad_wrap .board_cont .health .ico_dryer01 { background: url(../images/workplace/icon_health_01.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_dryer02 { background: url(../images/workplace/icon_health_02.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_dryer03 { background: url(../images/workplace/icon_health_03.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_dryer04 { background: url(../images/workplace/icon_health_04.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_dryer05 { background: url(../images/workplace/icon_health_05.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_handtowel01 { background: url(../images/workplace/icon_health_06.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_handtowel02 { background: url(../images/workplace/icon_health_07.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_handtowel03 { background: url(../images/workplace/icon_health_08.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_handtowel04 { background: url(../images/workplace/icon_health_09.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_handtowel05 { background: url(../images/workplace/icon_health_10.jpg) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object01 { background: url(../images/workplace/icon_health_11.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object02 { background: url(../images/workplace/icon_health_12.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object03 { background: url(../images/workplace/icon_health_13.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object04 { background: url(../images/workplace/icon_health_14.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object05 { background: url(../images/workplace/icon_health_15.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object06 { background: url(../images/workplace/icon_health_16.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object07 { background: url(../images/workplace/icon_health_17.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object08 { background: url(../images/workplace/icon_health_18.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object09 { background: url(../images/workplace/icon_health_19.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object10 { background: url(../images/workplace/icon_health_20.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object11 { background: url(../images/workplace/icon_health_21.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object12 { background: url(../images/workplace/icon_health_22.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object13 { background: url(../images/workplace/icon_health_23.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object14 { background: url(../images/workplace/icon_health_24.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object15 { background: url(../images/workplace/icon_health_25.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object16 { background: url(../images/workplace/icon_health_26.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object17 { background: url(../images/workplace/icon_health_27.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object18 { background: url(../images/workplace/icon_health_28.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health .ico_object19 { background: url(../images/workplace/icon_health_29.png) no-repeat 50% 50%/cover; }
+
+.borad_wrap .board_cont .health.view6 figure .tit { display: block; margin: 20px 0 10px; font-size: 22px; line-height: 1; font-weight: 700; }
+
+.borad_wrap .board_cont .health.view6 figure figcaption { margin: 0; padding: 0 30px; font-size: 18px; }
+
+.borad_wrap .board_cont .health.view6 figure figcaption img { vertical-align: top; height: 22px; }
+
+.borad_wrap .board_cont .health.view7 .guide { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-top: -40px; }
+
+.borad_wrap .board_cont .health.view7 .guide li { width: 590px; margin-top: 40px; padding-top: 315px; padding-left: 16px; text-indent: -16px; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-child(even) { margin-left: 20px; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(1) { background: url(../images/workplace/health07_2.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(2) { background: url(../images/workplace/health07_3.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(3) { background: url(../images/workplace/health07_4.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(4) { background: url(../images/workplace/health07_5.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(5) { background: url(../images/workplace/health07_6.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(6) { background: url(../images/workplace/health07_7.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(7) { background: url(../images/workplace/health07_8.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view7 .guide li:nth-of-type(8) { background: url(../images/workplace/health07_9.jpg) no-repeat 0 0; }
+
+.borad_wrap .board_cont .health.view8 [class^="ico_"] { height: 40px; }
+
+.borad_wrap .board_cont .health.view8 dt { margin-bottom: 0; }
+
+.borad_wrap .board_cont .health.view8 ol { margin: 60px 0; }
+
+.borad_wrap .board_cont .health.view8 ol:before { content: ''; display: block; width: 35px; height: 2px; margin-bottom: 30px; background-color: #000; }
+
+.borad_wrap .board_cont .health.view8 ol li { margin-bottom: 20px; }
+
+.borad_wrap .board_cont .health.view8 ol em { font-weight: 700; }
+
+.borad_wrap .board_cont .health.view8 .type_ico { margin-bottom: 20px; }
+
+.borad_wrap .board_cont .health.view8 .type_ico [class^="ico_"] { margin-top: 5px; margin-bottom: 5px; }
+
+.borad_wrap .board_cont .health.view8 .type_ico ul { padding-left: 54px; }
 
 .borad_wrap .attach { margin-top: 40px; }
 
@@ -2263,9 +2373,13 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .layer_body.vodpop iframe { width: 100%; height: 100%; }
 
+.nbsp { display: inline-block; width: 20px; }
+
 .solution_view { max-width: 1200px; margin: 0 auto; }
 
 .solution_view .sol_title { display: block; margin-bottom: 65px; font-size: 40px; font-weight: 500; }
+
+.solution_view .sol_title > span { display: block; font-size: 16px; font-weight: 300; }
 
 .solution_view .sub_block { margin-bottom: 50px; }
 
@@ -2273,9 +2387,13 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .solution_view .sub_block dt h2 { margin-bottom: 25px; }
 
-.solution_view .sub_block h2 { position: relative; margin-bottom: 60px; font-size: 26px; font-weight: 700; }
+.solution_view .sub_block h2 { position: relative; margin-bottom: 60px; font-size: 26px; font-weight: 700; vertical-align: top; }
 
-.solution_view .sub_block h2 > span { display: inline-block; margin-left: 5.625rem; font-size: 16px; font-weight: 400; vertical-align: middle; }
+.solution_view .sub_block h2 > span { display: inline-block; margin-left: 5.625rem; font-size: 16px; font-weight: 400; }
+
+.solution_view .sub_block h2 > p { padding-bottom: 30px; }
+
+.solution_view .sub_block h2 > p:first-child { padding-top: 10px; }
 
 .solution_view .sub_block .product_list { margin-bottom: 50px; }
 
@@ -2302,6 +2420,26 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .solution_view .sub_block .product_list ._half._right ul > li { margin-right: 0; margin-left: 90px; }
 
 .solution_view .sub_block .product_list ._half._right ul > li:nth-child(2n - 1) { margin-left: 0; }
+
+.solution_view .level-d { min-height: 500px; padding: 75px 0; margin-bottom: 75px; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; text-align: center; }
+
+.solution_view .level-d .inn { position: relative; max-width: 895px; min-height: 500px; margin: 0 auto; background-image: url(../images/solution/solution06_level-cut.png); background-size: auto; background-repeat: no-repeat; background-position: 0 0; }
+
+.solution_view .level-d i { display: inline-block; width: 30px; height: 30px; background-image: url(../images/solution/solution_ico.png); background-size: 30px; background-repeat: no-repeat; background-position: 0 0; vertical-align: middle; }
+
+.solution_view .level-d p { position: absolute; }
+
+.solution_view .level-d p.p01 { left: 100px; top: 40px; }
+
+.solution_view .level-d p.p02 { left: 145px; top: 140px; }
+
+.solution_view .level-d p.p03 { left: 135px; bottom: 190px; }
+
+.solution_view .level-d p.p04 { left: 120px; bottom: 55px; }
+
+.solution_view .level-d p strong { display: inline-block; margin: 0 19px; font-weight: 400; font-size: 20px; letter-spacing: -.5px; vertical-align: middle; }
+
+.solution_view .level-d p span { display: inline-block; width: 500px; vertical-align: middle; }
 
 #productArea:after { content: ''; position: relative; display: block; height: 3px; width: 100%; background-color: #fff; margin-top: -2px; z-index: 1; }
 
