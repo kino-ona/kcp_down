@@ -18,7 +18,7 @@
 
 .main .keyvisual .info.clr_white .title, .main .keyvisual .info.clr_white .desc { color: #fff; }
 
-.main .keyvisual .swiper-container { height: calc(100vh - 150px); }
+.main .keyvisual .swiper-container { height: calc(100vh - 200px); }
 
 .main .section { padding: 70px 0 0; }
 
