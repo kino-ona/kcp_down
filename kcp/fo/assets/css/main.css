@@ -120,15 +120,15 @@
 
 .main .recommand_sec .swiper-slide-active .info { padding-top: 40px; padding-bottom: 0; }
 
-.main .recommand_sec .swipe_navi { position: absolute; top: calc(50% / 1.65); width: calc(100% - 70px); z-index: 11; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); }
+.main .recommand_sec .swipe_navi { position: absolute; left: 50%; top: calc(50% / 1.2); width: calc((100% / 4) + 120px); z-index: 11; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .main .recommand_sec .swipe_navi > div { position: relative; width: 100%; z-index: 11; }
 
-.main .recommand_sec .swipe_navi .swiper-button-next { right: -18px; width: 20px; height: 20px; background-image: url(../images/common/slide_next2.png); background-size: 12px; background-repeat: no-repeat; background-position: 0 center; }
+.main .recommand_sec .swipe_navi .swiper-button-next { right: -13px; right: 0; width: 30px; height: 30px; background-image: url(../images/common/slide_next3.png); background-size: 23px; background-repeat: no-repeat; background-position: 0 center; }
 
-.main .recommand_sec .swipe_navi .swiper-button-prev { left: -13px; width: 20px; height: 20px; background-image: url(../images/common/slide_prev2.png); background-size: 12px; background-repeat: no-repeat; background-position: 0 center; }
+.main .recommand_sec .swipe_navi .swiper-button-prev { left: -10px; left: 0; width: 30px; height: 30px; background-image: url(../images/common/slide_prev3.png); background-size: 23px; background-repeat: no-repeat; background-position: 0 center; }
 
-.main .innov_sec { margin-top: 140px; padding-top: 120px; padding-bottom: 100px; background-color: #f2f4f6; }
+.main .innov_sec { position: relative; margin-top: 140px; padding-top: 120px; padding-bottom: 100px; background-color: #f2f4f6; }
 
 .main .innov_sec .swiper-container { padding-left: 3rem; padding-right: 2.5rem; }
 
@@ -139,6 +139,14 @@
 .main .innov_sec .info { margin-top: 20px; }
 
 .main .innov_sec .info .desc { width: calc(100% - 10px); font-size: 18px; }
+
+.main .innov_sec .swipe_navi { position: absolute; left: 50%; bottom: 40px; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); width: 80px; text-align: center; z-index: 1; }
+
+.main .innov_sec .swipe_navi > div { position: relative; width: 100%; margin: 0 auto; }
+
+.main .innov_sec .swipe_navi .swiper-button-next { right: 0; width: 32px; height: 32px; background-image: url(../images/common/swipe_next2.png); background-size: 32px; background-repeat: no-repeat; background-position: 0 center; }
+
+.main .innov_sec .swipe_navi .swiper-button-prev { left: 0; width: 32px; height: 32px; background-image: url(../images/common/swipe_prev2.png); background-size: 32px; background-repeat: no-repeat; background-position: 0 center; }
 
 .main .mailling_sec > h3 { padding-top: 26px; padding-bottom: 20px; background-image: url(../images/icon/ico_email.png); background-size: 36px; background-repeat: no-repeat; background-position: center 0; }
 

@@ -1100,6 +1100,10 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont { padding: 10px 30px 60px; font-size: 14px; font-weight: 300; }
 
+.borad_wrap .board_cont.full { padding: 10px 0px 60px; }
+
+.borad_wrap .board_cont.full ._row { padding-left: 30px; padding-right: 30px; }
+
 .borad_wrap .board_cont p { font-size: 14px; margin-bottom: 30px; }
 
 .borad_wrap .board_cont p:not(.summary):last-child { margin-bottom: 0; }
@@ -1242,11 +1246,15 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .protect.view9 .imgbox { margin-top: 30px; }
 
-.borad_wrap .board_cont .protect.view9 table { width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 50px; }
+.borad_wrap .board_cont .protect.view9 table { width: 100%; border-collapse: collapse; text-align: left; margin-top: 25px; margin-bottom: 25px; }
 
-.borad_wrap .board_cont .protect.view9 table caption { font-weight: 400; text-align: left; line-height: 40px; }
+.borad_wrap .board_cont .protect.view9 table caption { font-size: 14px; font-weight: 400; text-align: left; margin-bottom: 5px; }
 
-.borad_wrap .board_cont .protect.view9 table [scope="col"] { height: 50px; }
+.borad_wrap .board_cont .protect.view9 table [scope="col"] { height: 50px; position: relative; }
+
+.borad_wrap .board_cont .protect.view9 table [scope="col"]:after { content: ''; display: block; position: absolute; top: 50%; right: 0; margin-top: -9px; width: 1px; height: 18px; background-image: url(../images/workplace/table_th-bar.png); background-position: 0 0; background-repeat: no-repeat; }
+
+.borad_wrap .board_cont .protect.view9 table [scope="col"]:last-of-type:after { background-image: none; }
 
 .borad_wrap .board_cont .protect.view9 table tr th, .borad_wrap .board_cont .protect.view9 table tr td { padding: 11px; text-align: center; vertical-align: middle; font-weight: 300; }
 
@@ -1254,11 +1262,17 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .protect.view9 table thead th { font-weight: 500; }
 
-.borad_wrap .board_cont .protect.view9 table tbody th { font-weight: 500; }
+.borad_wrap .board_cont .protect.view9 table thead th:first-of-type { padding-left: 30px; }
+
+.borad_wrap .board_cont .protect.view9 table thead th:last-of-type { padding-right: 30px; }
+
+.borad_wrap .board_cont .protect.view9 table tbody th { font-weight: 500; padding-left: 30px; }
 
 .borad_wrap .board_cont .protect.view9 table tbody tr { border-bottom: 1px solid #e4e7ec; }
 
-.borad_wrap .board_cont .protect.view9 table tfoot td { text-align: left; font-size: 14px; color: #666; }
+.borad_wrap .board_cont .protect.view9 table tbody tr:last-of-type { padding-right: 30px; }
+
+.borad_wrap .board_cont .protect.view9 table tfoot td { text-align: left; font-size: 11px; color: #666; padding-left: 30px; }
 
 .borad_wrap .board_cont .protect.view9 table.T1 col { width: 50%; }
 
