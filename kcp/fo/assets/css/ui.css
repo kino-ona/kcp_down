@@ -867,6 +867,22 @@ input.datepicker, input.calendar { background-image: url(../images/icon/ico_cale
 
 .tbl_list tfoot th, .tbl_list tfoot td { border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; background-color: #f1fbff; }
 
+.error_page { background-color: #f5f5f5; }
+
+.error_page .skybanner { display: none; }
+
+.error_mssg { position: absolute; left: 50%; top: 43%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); min-width: 300px; background-color: #fff; padding: 100px; }
+
+.error_mssg .err_img { padding-left: 0; }
+
+.error_mssg div { padding-left: 15px; }
+
+.error_mssg div p { font-weight: 300; }
+
+.error_mssg div .btn_link { padding-right: 30px; padding-bottom: 5px; margin-top: 20px; margin-right: 50px; font-size: 1.4rem; font-weight: 500; background-image: url(../images/icon/icon_depth.png); background-repeat: no-repeat; background-position: right top 7px; background-size: 6px; }
+
+.error_mssg strong { display: block; margin-top: 20px; margin-bottom: 30px; font-size: 2.3rem; font-weight: 700; color: #0053a7; }
+
 .header:after, .headgnb .menu:after, .subgnb .submenu:after, .footer .row:after, .footer .util:after, .cust_inquiry:after, .cust_inquiry .frm_group:after, .search_wrap .recom_keyword > div:after, .product_list:after, [class*='_col'] ul:after, .order_list.type2 .info:after, .addphoto:after, .layer_body.lineuppopup .head .breadcr:after, .container:after, .container .conts:after, .searchcnts .nodata_recom .product_tree:after, .slide_page:after, .item_link:after, .introduction .details:after, .introduction .prd_info .code:after, .introduction .prd_spec:after, .custom .frm_group:after, .professional .bnr_figure ._box:after, .professional .about_sec1:after, .professional .about_sec2 ul:after, .professional .about_sec3 ul:after, .professional .about_sec4 ul:after, .professional .about_sec5 ul:after { content: ""; display: block; clear: both; }
 
 /** Swiper 4.5.0 Most modern mobile touch slider and framework with hardware accelerated transitions http://www.idangero.us/swiper/ Copyright 2014-2019 Vladimir Kharlampidi Released under the MIT License Released on: February 22, 2019 */
@@ -1332,6 +1348,48 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .guide li span { display: block; margin-top: 20px; padding-left: 16px; text-indent: -16px; font-weight: 300; }
 
+.borad_wrap .board_cont table { width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 50px; }
+
+.borad_wrap .board_cont table caption { font-weight: 400; text-align: left; line-height: 40px; }
+
+.borad_wrap .board_cont table caption span { font-weight: 300; }
+
+.borad_wrap .board_cont table [scope="col"] { position: relative; }
+
+.borad_wrap .board_cont table [scope="col"]:after { content: ''; display: block; position: absolute; top: 50%; right: 0; margin-top: -9px; width: 1px; height: 18px; background-image: url(../images/workplace/table_th-bar.png); background-position: 0 0; background-repeat: no-repeat; }
+
+.borad_wrap .board_cont table [scope="col"]:last-of-type:after { background-image: none; }
+
+.borad_wrap .board_cont table tr { height: 55px; }
+
+.borad_wrap .board_cont table tr th, .borad_wrap .board_cont table tr td { text-align: center; vertical-align: middle; font-weight: 300; }
+
+.borad_wrap .board_cont table thead { border-top: 2px solid #000; border-bottom: 1px solid #000; }
+
+.borad_wrap .board_cont table thead th { font-weight: 500; }
+
+.borad_wrap .board_cont table tbody th { font-weight: 500; }
+
+.borad_wrap .board_cont table tbody tr { border-bottom: 1px solid #e4e7ec; }
+
+.borad_wrap .board_cont table tfoot td { text-align: left; font-size: 14px; color: #666; }
+
+.borad_wrap .board_cont table.colstyle tbody tr { border-bottom: none; }
+
+.borad_wrap .board_cont table.colstyle tbody td { vertical-align: top; }
+
+.borad_wrap .board_cont table.colstyle tbody td p { margin-top: 25px; margin-bottom: 10px; }
+
+.borad_wrap .board_cont table.colstyle tbody td ul { margin-top: 25px; }
+
+.borad_wrap .board_cont table.colstyle tbody td ul li { padding: 7.5px 0; }
+
+.borad_wrap .board_cont table.colstyle ul { position: relative; }
+
+.borad_wrap .board_cont table.colstyle ul:after { content: ''; display: block; position: absolute; top: 50%; right: 0; background-position: 0 0; background-repeat: no-repeat; }
+
+.borad_wrap .board_cont table.colstyle ul:last-of-type:after { background-image: none; }
+
 .borad_wrap .board_cont .health.view6 figure .tit { display: block; margin: 20px 0 10px; font-size: 22px; line-height: 1; font-weight: 700; }
 
 .borad_wrap .board_cont .health.view6 figure figcaption { margin: 0; padding: 0 30px; font-size: 18px; }
@@ -1370,37 +1428,31 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap .board_cont .protect.view3 .guide + h4 { margin-top: 120px; }
 
+.borad_wrap .board_cont .protect.view8 .imgbox { width: 100%; margin: 0 0 35px; }
+
+.borad_wrap .board_cont .protect.view8 .info_behind { margin: 10px 0; }
+
+.borad_wrap .board_cont .protect.view8 table tbody th, .borad_wrap .board_cont .protect.view8 table tbody td { text-align: left; font-weight: 300; padding-left: 80px; }
+
+.borad_wrap .board_cont .protect.view8 table.T1 col { width: 50%; }
+
+.borad_wrap .board_cont .protect.view8 table.T2 tbody td { width: 33.333%; padding-left: 50px; }
+
+.borad_wrap .board_cont .protect.view8 table.T3 tbody td { width: 33.333%; padding-left: 50px; }
+
+.borad_wrap .board_cont .protect.view8 table.T4 tbody tr { height: 40px; }
+
+.borad_wrap .board_cont .protect.view8 table.T5 tbody td { width: 50%; padding: 7.5px 50px 7.5px 50px; }
+
+.borad_wrap .board_cont .protect.view8 table.T5 tbody td ul { margin-top: 0; }
+
 .borad_wrap .board_cont .protect.view9 .imgbox { margin-top: 55px; }
-
-.borad_wrap .board_cont .protect.view9 table { width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 50px; }
-
-.borad_wrap .board_cont .protect.view9 table caption { font-weight: 400; text-align: left; line-height: 40px; }
-
-.borad_wrap .board_cont .protect.view9 table [scope="col"] { position: relative; }
-
-.borad_wrap .board_cont .protect.view9 table [scope="col"]:after { content: ''; display: block; position: absolute; top: 50%; right: 0; margin-top: -9px; width: 1px; height: 18px; background-image: url(../images/workplace/table_th-bar.png); background-position: 0 0; background-repeat: no-repeat; }
-
-.borad_wrap .board_cont .protect.view9 table [scope="col"]:last-of-type:after { background-image: none; }
-
-.borad_wrap .board_cont .protect.view9 table tr { height: 55px; }
-
-.borad_wrap .board_cont .protect.view9 table tr th, .borad_wrap .board_cont .protect.view9 table tr td { text-align: center; line-height: 55px; font-weight: 300; }
-
-.borad_wrap .board_cont .protect.view9 table thead { border-top: 2px solid #000; border-bottom: 1px solid #000; }
-
-.borad_wrap .board_cont .protect.view9 table thead th { font-weight: 500; }
-
-.borad_wrap .board_cont .protect.view9 table tbody th { font-weight: 500; }
-
-.borad_wrap .board_cont .protect.view9 table tbody tr { border-bottom: 1px solid #e4e7ec; }
-
-.borad_wrap .board_cont .protect.view9 table tfoot td { text-align: left; font-size: 14px; color: #666; }
 
 .borad_wrap .board_cont .protect.view9 table.T1 col { width: 50%; }
 
-.borad_wrap .board_cont .protect.view9 table.T1 tbody * { text-align: left; padding-left: 80px; }
+.borad_wrap .board_cont .protect.view9 table.T1 tbody th, .borad_wrap .board_cont .protect.view9 table.T1 tbody td { text-align: left; padding-left: 80px; }
 
-.borad_wrap .board_cont .protect.view9 table.T1 tbody * th { font-weight: 300; }
+.borad_wrap .board_cont .protect.view9 table.T1 tbody th { font-weight: 300; }
 
 .borad_wrap .board_cont .protect.view9 table.T2 col { width: 33.333%; }
 
