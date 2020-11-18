@@ -418,6 +418,7 @@
   .main .keyvisual .info .title { font-size: 34px; }
   .main .keyvisual .info .desc { font-size: 16px; }
   .main .section h3 { font-size: 34px; }
+  .main .solution_sec { background-size: 43%; }
   .main .solution_sec .swiper-slide .info p { margin-left: 7rem; }
   .main .solution_sec .swiper-slide .info > h4 { font-size: 34px; }
   .main .solution_sec .swiper-slide .figure { width: 53.5%; }

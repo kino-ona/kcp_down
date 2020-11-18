@@ -1259,6 +1259,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .board_list._col5 .item:nth-child(5n) { margin-right: 0; }
 
+.board_list._col5 .item:nth-child(5n+1) { clear: left; }
+
 .board_list._col5 .img { padding-bottom: 73.5%; }
 
 .board_list._col5 .img img { position: absolute; top: 50%; left: 50%; max-width: 110%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
@@ -2610,7 +2612,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .header:after, .headgnb .menu:after, .subgnb .submenu:after, .footer .row:after, .footer .util:after, .cust_inquiry:after, .cust_inquiry .frm_group:after, .search_wrap .recom_keyword > div:after, .product_list:after, [class*='_col'] ul:after, .order_list.type2 .info:after, .addphoto:after, .layer_body.lineuppopup .head .breadcr:after, .container:after, .container .conts:after, .searchcnts .nodata_recom .product_tree:after, .slide_page:after, .item_link:after, .introduction .details:after, .introduction .prd_info .code:after, .introduction .prd_spec:after, .custom .frm_group:after, .professional .bnr_figure ._box:after, .professional .about_sec1:after, .professional .about_sec2 ul:after, .professional .about_sec3 ul:after, .professional .about_sec4 ul:after, .professional .about_sec5 ul:after { content: ""; display: block; clear: both; }
 
-@media screen and (max-width: 1440px) { .header .row { margin: 0 40px; }
+@media screen and (max-width: 1440px) { .header.fixed .row { padding-left: 50px; padding-right: 50px; }
+  .header .row { margin: 0 40px; }
   .cust_inquiry .head { width: calc((100% - 57vw) / 2); }
   .cust_inquiry .head .title { font-size: 3rem; }
   .cust_inquiry .head span { font-size: 13px; }
@@ -2629,15 +2632,25 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
   .cust_inquiry .cust_call dt, .cust_inquiry .cust_call p { font-size: 14px; }
   .cust_inquiry .cust_call .tel { font-size: 30px; } }
 
-@media screen and (min-width: 1024px) and (max-width: 1640px) { .headgnb { max-width: 900px; }
+@media screen and (max-width: 1640px) { .header .reomm_bnr.swiper-container { left: 0; width: 225px; }
+  .header .reomm_bnr.swiper-container .figure { width: 60px; }
+  .header .reomm_bnr.swiper-container .slide01 .figure, .header .reomm_bnr.swiper-container .slide02 .figure, .header .reomm_bnr.swiper-container .slide03 .figure, .header .reomm_bnr.swiper-container .slide04 .figure { background-size: 50px; }
+  .header .reomm_bnr.swiper-container .info { padding-left: 70px; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) { .headgnb { max-width: 900px; }
   .headgnb .menu li a { padding: 0 10px; line-height: 100px; }
   .subgnb { max-width: 840px; }
   .subgnb .submenu > li { padding-left: 15px; padding-right: 15px; }
-  .reomm_bnr.swiper-container { left: 0; width: 190px; height: auto; padding-bottom: 20px; }
-  .reomm_bnr.swiper-container .figure { width: 45px; }
-  .reomm_bnr.swiper-container .slide01 .figure, .reomm_bnr.swiper-container .slide02 .figure, .reomm_bnr.swiper-container .slide03 .figure, .reomm_bnr.swiper-container .slide04 .figure { background-size: 45px; }
-  .reomm_bnr.swiper-container .info { padding-top: 0; padding-left: 60px; }
-  .reomm_bnr.swiper-container .info p { font-size: 12px; } }
+  .header .reomm_bnr.swiper-container { left: 0; width: 160px; height: auto; padding-bottom: 20px; }
+  .header .reomm_bnr.swiper-container .figure { width: 40px; }
+  .header .reomm_bnr.swiper-container .slide01 .figure, .header .reomm_bnr.swiper-container .slide02 .figure, .header .reomm_bnr.swiper-container .slide03 .figure, .header .reomm_bnr.swiper-container .slide04 .figure { background-size: 40px; }
+  .header .reomm_bnr.swiper-container .info { padding-top: 0; padding-left: 50px; }
+  .header .reomm_bnr.swiper-container .info p { font-size: 10px; }
+  .header.fixed .reomm_bnr.swiper-container { left: 50px; width: 160px; }
+  .header.fixed .reomm_bnr.swiper-container .figure { width: 40px; }
+  .header.fixed .reomm_bnr.swiper-container .slide01 .figure, .header.fixed .reomm_bnr.swiper-container .slide02 .figure, .header.fixed .reomm_bnr.swiper-container .slide03 .figure, .header.fixed .reomm_bnr.swiper-container .slide04 .figure { background-size: 40px; }
+  .header.fixed .reomm_bnr.swiper-container .info { padding-left: 50px; }
+  .header.fixed .reomm_bnr.swiper-container .info p { font-size: 10px; } }
 
 @media screen and (max-width: 1320px) { .cust_inquiry .mid { width: 65vw; padding: 4rem 10rem 0; }
   .cust_inquiry .mid h4 { margin-bottom: 20px; }
