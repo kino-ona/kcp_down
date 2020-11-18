@@ -1934,7 +1934,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .introduction .details_slide .desc li { padding: 0; font-weight: 300; }
 
-.introduction .prd_slide .figure { position: relative; padding-bottom: 100%; overflow: hidden; background-image: url(../images/common/default_image.png); background-size: cover; background-position: center 0; background-repeat: no-repeat; }
+.introduction .prd_slide .figure { position: relative; padding-bottom: 100%; overflow: hidden; }
 
 .introduction .prd_slide .figure img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 

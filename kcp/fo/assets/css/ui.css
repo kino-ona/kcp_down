@@ -1147,7 +1147,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .product_list { clear: both; height: 100%; min-height: 100%; }
 
-.product_list .img { position: relative; width: 100%; padding-top: 100%; overflow: hidden; background-image: url(../images/common/default_image.png); background-size: cover; background-position: center center; background-repeat: no-repeat; }
+.product_list .img { position: relative; width: 100%; padding-top: 100%; overflow: hidden; }
 
 .product_list .img img { position: absolute; top: 50%; left: 50%; width: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
@@ -1992,7 +1992,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .introduction .prd_slide { float: left; position: relative; width: 570px; margin-right: 60px; }
 
-.introduction .prd_slide .prd-swipe { min-height: 500px; background-image: url(../images/common/default_image.png); background-repeat: no-repeat; background-position: center center; background-size: contain; }
+.introduction .prd_slide .prd-swipe { min-height: 500px; }
 
 .introduction .prd_slide .prd-swipe .figure { position: relative; width: 492px; margin: 0 auto; padding-bottom: 86.316%; overflow: hidden; }
 
