@@ -580,7 +580,7 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 
 .cust_inquiry .top_util .weather { display: inline-block; }
 
-.cust_inquiry .top_util .weather p { font-size: 14px; color: #fff; color: transparent; line-height: 90px; }
+.cust_inquiry .top_util .weather p { font-size: 14px; color: #fff; line-height: 90px; }
 
 .cust_inquiry .top_util .weather p span { font-size: 22px; font-weight: 700; color: #fff; line-height: 90px; }
 
@@ -758,6 +758,30 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 .layer_body.termspop .terms_area dd ul { margin-bottom: 10px; margin-left: 10px; }
 
 .layer_body.termspop .terms_area dd li { padding-bottom: 5px; font-size: 13px; font-weight: 350; }
+
+.layer_body.termspop .inscroll { padding: 20px 0 20px 20px; height: 450px; background-color: #f4f6f8; overflow-y: scroll; }
+
+.layer_body.termspop .inscroll .inframe { width: 100%; height: 100%; border: 0; }
+
+.termsbox { padding-right: 20px; }
+
+.termsbox .popCont { font-size: 13px; line-height: 1.8; }
+
+.termsbox .popCont div, .termsbox .popCont p, .termsbox .popCont strong, .termsbox .popCont span { font-size: 13px; line-height: 1.8; }
+
+.termsbox .popCont div { margin-top: 20px; }
+
+.termsbox .popCont caption { font-size: 0; text-indent: -9999px; }
+
+.termsbox .popCont table { border: 1px solid #dddddd; margin-top: 5px; }
+
+.termsbox .popCont table th, .termsbox .popCont table td { font-size: 12px; line-height: 1.5; }
+
+.termsbox .popCont table th { padding: 15px; border-bottom: 1px solid #dddddd; border-left: 1px solid #dddddd; }
+
+.termsbox .popCont table td { padding: 15px; border-bottom: 1px solid #dddddd; border-left: 1px solid #dddddd; background-color: #fff; }
+
+select.terms_select { margin: 20px 0; width: auto; padding-right: 25px; }
 
 .tablist { display: table; width: 100%; table-layout: fixed; }
 

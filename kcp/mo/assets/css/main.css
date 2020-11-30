@@ -214,6 +214,10 @@
 
 .partner_wrap .noti_board .board_head .btn_link { position: absolute; right: 0; top: 17px; font-size: 13px; color: #666666; border-bottom-color: #666666; }
 
+.partner_wrap .noti_board .nodata { padding: 100px 0; }
+
+.partner_wrap .noti_board .nodata > p { font-size: 12px; color: #999; }
+
 .partner_wrap .noti_board .board_wrap { margin-left: 30px; border-top: 1px solid #eeeeee; }
 
 .partner_wrap .noti_board .board_wrap li { padding: 20px 0 16px; border-bottom: 1px solid #eeeeee; }

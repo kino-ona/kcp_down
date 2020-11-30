@@ -651,6 +651,30 @@ h1.logo { display: block; width: 81px; height: 30px; margin: 0 auto; background-
 
 .layer_body.termspop .terms_area dd li { padding-bottom: 5px; font-size: 12px; font-weight: 350; }
 
+.layer_body.termspop .inscroll { padding: 15px 0 15px 10px; height: 70vh; background-color: #f4f6f8; overflow-y: scroll; }
+
+.layer_body.termspop .inscroll .inframe { width: 100%; height: 100%; border: 0; }
+
+.termsbox { padding-right: 10px; }
+
+.termsbox .popCont { font-size: 12px; }
+
+.termsbox .popCont div, .termsbox .popCont p, .termsbox .popCont strong, .termsbox .popCont span, .termsbox .popCont button { font-size: 12px; }
+
+.termsbox .popCont div { margin-top: 20px; }
+
+.termsbox .popCont caption { font-size: 0; text-indent: -9999px; }
+
+.termsbox .popCont table { border: 1px solid #dddddd; margin-top: 5px; }
+
+.termsbox .popCont table th, .termsbox .popCont table td { font-size: 11px; }
+
+.termsbox .popCont table th { padding: 15px; border-bottom: 1px solid #dddddd; border-left: 1px solid #dddddd; }
+
+.termsbox .popCont table td { padding: 15px; border-bottom: 1px solid #dddddd; border-left: 1px solid #dddddd; background-color: #fff; }
+
+select.terms_select { margin: 20px 0; width: auto; padding-right: 25px; }
+
 .tablist { display: table; width: 100%; table-layout: fixed; }
 
 .tablist li { display: table-cell; border-bottom: 1px solid #f0f0f0; text-align: center; }
@@ -1486,8 +1510,6 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .borad_wrap.relation_swipe { border-top: 0px; }
 
-.borad_wrap.relation_swipe .swiper-container { margin-right: -2.25rem; }
-
 .borad_wrap.relation_swipe .swiper-container .swiper-slide { padding-right: 2.25rem; }
 
 .borad_wrap.relation_swipe .swiper-container .swiper-slide:last-child { margin-right: 0; }
@@ -1503,6 +1525,10 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .borad_wrap._view { padding: 30px; }
 
 .borad_wrap.relation_swipe { padding-top: 40px; margin-bottom: -70px; background-color: #f2f4f6; }
+
+.order_list .nodata { padding: 100px 0; }
+
+.order_list .nodata > p { font-size: 12px; color: #999; }
 
 .order_list .item { margin-top: 20px; padding: 25px 20px; -webkit-box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16); }
 
@@ -2583,8 +2609,6 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .professional .about .row:last-child { padding-bottom: 0; }
 
-.professional .about .row:nth-child(even) { background-color: #f2f4f6; }
-
 .professional .about .tit { font-size: 20px; line-height: 28px; font-weight: 700; }
 
 .professional .about .desc { margin-top: 10px; font-size: 14px; line-height: 23px; font-weight: 300; }
@@ -2592,6 +2616,12 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .professional .about_top figcaption { position: relative; margin: -57px auto 0 30px; padding: 40px 30px; background-color: #fff; font-size: 14px; line-height: 23px; font-weight: 300; -webkit-box-shadow: 9px 15px 30px 0 rgba(0, 0, 0, 0.05); box-shadow: 9px 15px 30px 0 rgba(0, 0, 0, 0.05); }
 
 .professional .about_top figcaption strong { display: block; margin-top: 20px; font-size: inherit; font-weight: 500; }
+
+.professional .about_vod .row { padding-top: 0; margin-top: -15px; }
+
+.professional .about_vod .vod { width: 100%; max-width: 640px; position: relative; padding-bottom: 60%; margin: 0 auto; overflow: hidden; }
+
+.professional .about_vod .vod iframe { position: absolute; top: 0; left: 50%; width: 100%; height: 100%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); }
 
 .professional .about_sec1 .tit { font-weight: 300; }
 
@@ -2656,6 +2686,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .professional .about_sec3 li a { display: -webkit-box; display: -ms-flexbox; display: flex; height: 100px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 25px; }
 
 .professional .about_sec3 li a i { display: inline-block; width: 6px; height: 10px; margin: -2px 0 0 4px; background: url(../images/icon/ico_arr-bk.png) no-repeat 50% 50%; background-size: 100% auto; vertical-align: middle; }
+
+.professional .about_sec4 { background-color: #f2f4f6; }
 
 .professional .about_sec4 ul { margin-top: 20px; }
 

@@ -158,6 +158,11 @@
 			<a href="#" class="btn_link">최신</a>
 		</div>
 		<div class="board_wrap">
+			<!-- 11.30 nodata 추가 -->
+			<div class="nodata">
+				<p>선택하신 일자에 등록된 공지사항이 없습니다.</p>
+			</div>
+			<!--// 11.30 nodata 추가 -->
 			<!-- 최대 5개까지 -->	
 			<ul>
 				<li><a href="#" onclick="layerOpen('notiview');return false;"> <!-- 09.28 상세보기팝업 //-->
@@ -240,6 +245,11 @@
 		</ul>
 		<!-- 전용용기 -->
 		<div class="row order_list type1">
+			<!-- 11.30 nodata 추가 -->
+			<div class="nodata">
+				<p>등록할 전용용기 설치 피드백이 없습니다.</p>
+			</div> 
+			<!--// 11.30 nodata 추가 -->
 			<!-- loop -->
 			<div class="item">
 				<!-- status type 
@@ -314,6 +324,11 @@
 
 		<!-- 무료사용 -->
 		<div class="row order_list type1">
+			<!-- 11.30 nodata 추가 -->
+			<div class="nodata">
+				<p>등록할 무료사용 결과 피드백이 없습니다.</p>
+			</div>
+			<!--// 11.30 nodata 추가 -->
 			<!-- loop -->
 			<div class="item">
 				<!-- status type 
@@ -984,19 +999,23 @@
 </div>
 <!--// 11.24 풋터 사이트이용약관 -->
 
-<!-- 11.24 개안정보처리방침 -->
+<!-- 11.24 개인정보처리방침 -->
 <div class="layer_body termspop" id="privacypop" aria-hidden="true" role="dialog">
 	<div class="layer_wrap">
+		<!-- 11.30 -->
 		<div class="layer_head">
 			<button onclick="layerClose('privacypop')" class="layer_close manualfn">닫기</button>
-			<h2 class="layer_title">개안정보처리방침</h2>
+			<h2 class="layer_title">통합 개인정보처리방침</h2>
 		</div>
 		<div class="layer_cont">
-		내용미정
+			<div class="inscroll">
+				<iframe src="privacy.html" class="inframe"></iframe>
+			</div>
 		</div>
+		<!--// 11.30 -->
 	</div>
 </div>
-<!--// 11.24 개안정보처리방침 -->
+<!--// 11.24 개인정보처리방침 -->
 
 <footer class="footer">
 	<div class="enquiry">
