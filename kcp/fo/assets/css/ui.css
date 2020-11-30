@@ -2572,7 +2572,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .brand.sub .brand_info .item_link { position: absolute; right: 40px; top: 50%; }
 
-.brand.sub .tab_wrap .tab_navi { margin-top: 0px; -webkit-box-shadow: none; box-shadow: none; border-bottom: 1px solid #e0e0e0; }
+.brand.sub .tab_wrap .tab_navi { margin-top: 0px; -webkit-box-shadow: none; box-shadow: none; border-bottom: 1px solid #e0e0e0; -webkit-transform: translateY(0); transform: translateY(0); }
 
 .brand.sub .tab_wrap .tab_cont p { max-width: 1200px; }
 

@@ -1038,7 +1038,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .footer .util:after, .gnb_menu .gnb_wrap:after, .order_list.type2 .info:after, .addphoto:after, .layer_body.lineuppopup .head .breadcr:after, .order .rent_write .total > div:after, .layer_body.stockpopup .stk_list li .elm:after, .partner .order_num:after, .partner .total:after, .custom .sort:after, .professional .about_sec4 ul:after, .professional .about_sec5 ul:after { content: ""; display: block; clear: both; }
 
-.nodata { height: 100%; padding: 2rem 0 4rem; text-align: center; }
+.nodata { height: 100%; padding: 8rem 0; text-align: center; }
 
 .nodata > p { font-size: 14px; }
 
@@ -2771,7 +2771,11 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .brand_info.wypall { background-image: linear-gradient(to bottom, #006fba, #0053a7 calc(100% - 42px), #fff calc(100% - 42px)); }
 
-.brand_info.scott .logo { height: 27px; }
+.brand_info.wypall .logo { height: 30px; }
+
+.brand_info.scott .logo { height: 36px; }
+
+.brand_info.kimtech .logo { height: 24px; }
 
 .brand_info.sub { border-bottom: 3.25rem solid #fff; background-image: -webkit-gradient(linear, left top, left bottom, from(#006fba), to(#0053a7)); background-image: linear-gradient(to bottom, #006fba, #0053a7); }
 
@@ -2780,6 +2784,10 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .brand_info.sub .desc { padding: 5px 0 10px; }
 
 .brand_info.sub .item_link { margin-top: 20px; }
+
+.brand_info.sub .logo { max-width: 180px; height: auto; max-height: 52px; }
+
+.brand_info.sub .logo img { height: auto; }
 
 .brand .desc { font-size: 12px; font-weight: 300; color: #fff; }
 
