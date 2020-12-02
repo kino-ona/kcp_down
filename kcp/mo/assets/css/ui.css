@@ -1791,6 +1791,12 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .page_summary span { font-weight: 400; }
 
+.page_summary .btn_allv { display: block; vertical-align: bottom; }
+
+.page_summary .btn_allv span { display: inline-block; margin-top: 5px; color: #666666; font-size: 13px; line-height: 1; vertical-align: middle; }
+
+.page_summary .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+
 .tab_navi { width: 100%; border-bottom: 1px solid #eee; overflow: hidden; overflow-x: auto; }
 
 .tab_navi > ul { display: -webkit-box; display: -ms-flexbox; display: flex; }

@@ -2008,6 +2008,12 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .idx-page_head h2 { display: inline-block; font-size: 40px; line-height: 1; font-weight: 500; vertical-align: middle; margin-bottom: 30px; }
 
+.idx-page_head h2 .btn_allv { display: inline-block; vertical-align: bottom; }
+
+.idx-page_head h2 .btn_allv span { display: inline-block; margin-left: 5px; margin-top: 5px; color: #666666; font-size: 14px; line-height: 1; vertical-align: middle; }
+
+.idx-page_head h2 .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+
 .idx-page_head .desc * { font-weight: 300; }
 
 .sol-innov_sec { margin-bottom: 165px; }
@@ -2047,10 +2053,6 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .desc_wrapper .info .title { font-size: 22px; font-weight: 500; padding-bottom: 5px; }
 
 .desc_wrapper .info .title a { font-size: inherit; font-weight: inherit; }
-
-.desc_wrapper .info .title a span { display: inline-block; margin-left: 5px; margin-top: 4px; color: #666666; font-size: 14px; }
-
-.desc_wrapper .info .title a span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
 
 .desc_wrapper .info .desc { font-size: 16px; color: #666666; line-height: 1.6; }
 
