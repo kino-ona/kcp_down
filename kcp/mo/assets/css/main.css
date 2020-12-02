@@ -38,7 +38,7 @@
 
 .main .solution_sec { position: relative; }
 
-.main .solution_sec:before { content: ''; position: absolute; top: 42px; left: 0; display: block; width: 115px; padding-top: 100%; background-image: url(../images/common/bar.png); background-size: cover; background-position: center center; background-repeat: no-repeat; }
+.main .solution_sec:before { content: ''; position: absolute; top: 42px; left: 0; display: block; width: 115px; padding-top: 90%; background-image: url(../images/common/bar.png); background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
 .main .solution_sec .swiper-slide { margin-right: 13px; }
 
