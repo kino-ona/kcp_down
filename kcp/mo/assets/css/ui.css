@@ -2112,7 +2112,9 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .introduction .borad_wrap .innov_slide .swiper-container { padding: 0 0 40px 60px; }
 
-.layer_body.lineuppopup .layer_cont { padding: 0; }
+.layer_body.lineuppopup .layer_wrap { overflow-y: hidden; }
+
+.layer_body.lineuppopup .layer_cont { height: calc(100% - 170px); padding: 0; overflow-y: auto; }
 
 .layer_body.lineuppopup .layer_cont .img { margin-top: -22px; }
 
