@@ -146,6 +146,7 @@
 			</ul>
 			<!-- 10.27 명 변경 -->
 			<ul class="submenu" data-sub="4"> <!-- 솔루션 //-->
+				<li><a href="#" class="ti _all">솔루션 전체보기<i></i></a></li> <!-- 12.02 수정 //-->
 				<li><a href="#">공중화장실</a></li>
 				<li><a href="#">산업체생산공정</a></li>
 				<li><a href="#">푸드서비스 &amp; 프로세싱</a></li>
@@ -154,6 +155,7 @@
 				<li><a href="#">방역현장</a></li>
 			</ul>
 			<ul class="submenu" data-sub="5"> <!-- 현장인사이트 //-->
+				<li><a href="#" class="ti _all">현장인사이트 전체보기<i></i></a></li> <!-- 12.02 수정 //-->
 				<li><a href="#">위생과 건강</a></li>
 				<li><a href="#">작업자와 공정 보호</a></li>
 				<li><a href="#">생산효율성 증대</a></li>
@@ -250,6 +252,7 @@
 				<dd class="radiowrap">
 					<input type="radio" id="rd01" name="radio"><label for="rd01">전화답변</label>
 					<input type="radio" id="rd02" name="radio"><label for="rd02">이메일답변</label>
+					<input type="radio" id="rd03" name="radio"><label for="rd03">SMS답변</label> <!-- 12.02 추가 //-->
 				</dd>
 			</dl>
 
@@ -769,10 +772,10 @@
 </div>
 <!--// 11.24 사이트이용약관 -->
 
+<!-- 12.01 삭제 -->
 <!-- 11.24 통합 개인정보처리방침 -->
-<div class="layer_body termspop" id="privacypop" aria-hidden="true" role="dialog">
+<!-- <div class="layer_body termspop" id="privacypop" aria-hidden="true" role="dialog">
 	<div class="layer_wrap">
-		<!-- 11.30 -->
 		<div class="layer_head">
 			<button onclick="layerClose('privacypop')" class="layer_close manualfn">닫기</button>
 			<h2 class="layer_title">통합 개인정보처리방침</h2>
@@ -782,10 +785,10 @@
 				<iframe src="privacy.html" class="inframe"></iframe>
 			</div>
 		</div>
-		 <!--// 11.30 -->
 	</div>
-</div>
+</div> -->
 <!--// 11.24 통합 개인정보처리방침 -->
+<!--// 12.01 삭제 -->
 
 
 <footer class="footer">
@@ -816,7 +819,7 @@
 	<div class="row">
 		<ul class="col util">
 			<li><a href="#" onclick="layerOpen('termspop');return false;">사이트이용약관</a></li>  <!-- 11.24 //-->
-			<li><a href="#" onclick="layerOpen('privacypop');return false;" class="point">개인정보처리방침</a></li> <!-- 11.24 //-->
+			<li><a href="https://www.yksso.co.kr/terms/brand" target="_blank" class="point">개인정보처리방침</a></li> <!-- 12.01 수정 //-->
 			<li><a href="../custom/sitemap.html">사이트맵</a></li>
 		</ul>
 
@@ -840,7 +843,7 @@
 
 		<div class="col familysite">
 			<select onchange="goFamilySite(this);">
-				<option>Familysite</option>
+				<option value="">Familysite</option> <!-- 12.02 수정 //-->
 				<!-- <option value="http://www.goldenfriends.yuhan-kimberly.co.kr/">골든프렌즈</option> 11.24 삭제 //-->
 				<option value="http://www.yuhan-kimberly.co.kr/">유한킴벌리</option>
 				<option value="https://www.momq.co.kr/">하기스</option>

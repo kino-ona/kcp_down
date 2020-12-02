@@ -386,19 +386,23 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 
 .reomm_bnr.swiper-container .swiper-pagination-bullets .swiper-pagination-bullet-active { background: #777; }
 
-.subgnb { display: none; position: relative; max-width: 930px; min-height: 188px; margin: 0 auto; padding-bottom: 120px; background-color: #fff; text-align: left; }
+.subgnb { display: none; position: relative; max-width: 950px; min-height: 188px; margin: 0 auto; padding-bottom: 120px; background-color: #fff; text-align: left; }
 
 .subgnb.show { display: block; }
 
 .subgnb .submenu { display: none; margin: 0 auto; padding-top: 40px; }
 
-.subgnb .submenu > li { position: relative; display: inline-block; padding-left: 20px; padding-right: 20px; text-align: center; border-left: 1px solid #f2f2f2; }
+.subgnb .submenu > li { position: relative; display: inline-block; padding-left: 15px; padding-right: 16px; text-align: center; border-left: 1px solid #f2f2f2; }
 
-.subgnb .submenu > li:first-child { padding-left: 0; border-left: 0; }
+.subgnb .submenu > li:first-child { padding-left: 0; padding-right: 10px; border-left: 0; }
 
 .subgnb .submenu > li a { display: block; width: 100%; letter-spacing: -1px; }
 
 .subgnb .submenu > li a.ti { font-weight: 450; }
+
+.subgnb .submenu > li a._all { cursor: pointer !important; }
+
+.subgnb .submenu > li a._all i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-position: center center; background-repeat: no-repeat; margin-top: -4px; margin-left: 5px; vertical-align: middle; }
 
 .subgnb .submenu > li ul { margin-top: 10px; }
 
@@ -794,6 +798,16 @@ select.terms_select { margin: 20px 0; width: auto; padding-right: 25px; }
 .tablist li .tab[aria-selected="true"], .tablist li .tab input[type="radio"]:checked + label, .tablist li input[type="radio"] + label[aria-selected="true"], .tablist li input[type="radio"] + label input[type="radio"]:checked + label { border: 0; border-bottom: 3px solid #3D3D3D; }
 
 .tablist li .tab[aria-selected="true"]:after, .tablist li .tab input[type="radio"]:checked + label:after, .tablist li input[type="radio"] + label[aria-selected="true"]:after, .tablist li input[type="radio"] + label input[type="radio"]:checked + label:after { display: none; }
+
+.board_tab { margin-bottom: 80px; }
+
+.board_tab .tablist { border-bottom: 1px solid #eeeeee; }
+
+.board_tab .tablist a, .board_tab .tablist .tab { position: relative; width: 100%; padding: 20px 0; color: #999999; }
+
+.board_tab .tablist a.current, .board_tab .tablist .tab.current { color: #224c96; font-size: 18px; font-weight: 700; }
+
+.board_tab .tablist a.current:after, .board_tab .tablist .tab.current:after { content: ''; position: absolute; bottom: -2px; left: 0; display: inline-block; width: 100%; height: 2px; background-color: #224c96; }
 
 .tab_contents { clear: both; }
 
@@ -1271,6 +1285,12 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .board_list .info .title { line-height: 23px; font-weight: 500; white-space: normal; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; }
 
+.board_list .info .title a { display: block; margin-top: 15px; margin-bottom: 7px; font-size: 20px; font-weight: inherit; line-height: inherit; }
+
+.board_list .info .lnk { margin-top: 3px; }
+
+.board_list .info .lnk a { font-weight: 300; }
+
 .board_list .info .date { font-size: 14px; margin-top: 4px; color: #999; }
 
 .board_list .info .desc { margin-top: 4px; font-size: 12px; line-height: 18px; color: #666; }
@@ -1289,9 +1309,11 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .board_list._col3 .item:nth-child(3n) { margin-right: 0; }
 
+.board_list._col3 .item:nth-child(3n + 1) { clear: left; }
+
 .board_list._col3 .img { padding-bottom: 73.5%; }
 
-.board_list._col3 .img img { position: absolute; top: 50%; left: 50%; max-width: 110%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.board_list._col3 .img img { position: absolute; top: 50%; left: 50%; width: 100%; max-width: 110%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .board_list._col4 .item { width: calc((100% / 4) - 15px); }
 
@@ -2026,7 +2048,11 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .desc_wrapper .info .title a { font-size: inherit; font-weight: inherit; }
 
-.desc_wrapper .info .desc { font-size: 16px; font-weight: 500; color: #666666; }
+.desc_wrapper .info .title a span { display: inline-block; margin-left: 5px; margin-top: 4px; color: #666666; font-size: 14px; }
+
+.desc_wrapper .info .title a span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+
+.desc_wrapper .info .desc { font-size: 16px; color: #666666; line-height: 1.6; }
 
 .item_link li { float: left; margin-right: 20px; margin-bottom: 20px; }
 
@@ -2224,7 +2250,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .custom textarea { padding: 27px 20px; }
 
-.custom .radiowrap input[type=radio] + label { background-position: 0 11px; }
+.custom .radiowrap input[type=radio] + label { background-position: 0 11px; margin-right: 15px; }
 
 .custom hr { width: 100%; height: 2px; margin-bottom: 40px; }
 
@@ -2716,7 +2742,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 @media screen and (min-width: 1024px) and (max-width: 1600px) { .headgnb { max-width: 900px; }
   .headgnb .menu li a { padding: 0 10px; line-height: 100px; }
   .subgnb { max-width: 840px; }
-  .subgnb .submenu > li { padding-left: 15px; padding-right: 15px; }
+  .subgnb .submenu > li { padding-left: 13px; padding-right: 13px; }
+  .subgnb .submenu > li a { font-size: 14px; }
   .header .reomm_bnr.swiper-container { left: 0; width: 160px; height: auto; padding-bottom: 20px; }
   .header .reomm_bnr.swiper-container .figure { width: 40px; }
   .header .reomm_bnr.swiper-container .slide01 .figure, .header .reomm_bnr.swiper-container .slide02 .figure, .header .reomm_bnr.swiper-container .slide03 .figure, .header .reomm_bnr.swiper-container .slide04 .figure { background-size: 40px; }
