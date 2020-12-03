@@ -1345,6 +1345,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 [class*='_col'] .info { margin-top: 15px; }
 
+.borad_wrap .nodata { padding: 200px 0 250px; }
+
 .borad_wrap .sort { padding: 0; margin-right: 30px; }
 
 .borad_wrap .sort .dropdown { top: 0; }
@@ -2016,9 +2018,9 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .idx-page_head h2 .btn_allv { display: inline-block; vertical-align: bottom; }
 
-.idx-page_head h2 .btn_allv span { display: inline-block; margin-left: 5px; margin-top: 5px; color: #666666; font-size: 14px; line-height: 1; vertical-align: middle; }
+.idx-page_head h2 .btn_allv span { display: inline-block; width: 90px; height: 25px; margin-left: 5px; border-radius: 25px; color: #fff; font-size: 13px; font-weight: 500; line-height: 24px; vertical-align: middle; background-color: #0053a7; text-align: center; }
 
-.idx-page_head h2 .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+.idx-page_head h2 .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-wh.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
 
 .idx-page_head .desc * { font-weight: 300; }
 

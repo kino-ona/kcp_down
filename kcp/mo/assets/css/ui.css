@@ -1789,15 +1789,15 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .container .row_title { padding: 40px 30px 10px; border-bottom: 1px solid #eeeeee; font-size: 17px; font-weight: 700; }
 
-.page_summary { padding: 0 30px 28px 60px; font-size: 14px; font-weight: 300; border-bottom: 1px solid #000; }
+.page_summary { padding: 0 30px 28px 60px; font-size: 14px; font-weight: 300; line-height: 1.6; border-bottom: 1px solid #000; }
 
 .page_summary span { font-weight: 400; }
 
-.page_summary .btn_allv { display: block; vertical-align: bottom; }
+.page_summary .btn_allv { display: block; margin-top: 5px; vertical-align: bottom; }
 
-.page_summary .btn_allv span { display: inline-block; margin-top: 5px; color: #666666; font-size: 13px; line-height: 1; vertical-align: middle; }
+.page_summary .btn_allv span { display: inline-block; width: 85px; height: 24px; margin-top: 5px; border-radius: 25px; color: #fff; font-size: 12px; line-height: 23px; font-weight: 500; vertical-align: middle; background-color: #0053a7; text-align: center; }
 
-.page_summary .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-bk.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+.page_summary .btn_allv span i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-wh.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
 
 .tab_navi { width: 100%; border-bottom: 1px solid #eee; overflow: hidden; overflow-x: auto; }
 
