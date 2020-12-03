@@ -402,11 +402,11 @@ h1.logo { display: block; width: 81px; height: 30px; margin: 0 auto; background-
 
 .footer .addr > p span:first-child:before { display: none; }
 
-.footer .copyr { padding: 20px 30px 80px; border-top: 1px solid #4b4b4b; }
+.footer .copyr { padding: 20px 30px 90px; border-top: 1px solid #4b4b4b; }
 
-.footer .copyr p { position: relative; padding-left: 8px; font-size: 12px; line-height: 24px; color: #eee; }
+.footer .copyr p { position: relative; padding-left: 10px; font-size: 12px; line-height: 24px; color: #eee; }
 
-.footer .copyr p span { position: absolute; left: 0; top: 0; display: inline-block; color: #eee; font-size: 16px; font-weight: 300; }
+.footer .copyr p span { position: absolute; left: 0; top: -3px; display: inline-block; color: #eee; font-size: 20px; font-weight: 300; }
 
 .footer .copyr .btm { position: relative; padding: 15px 0 10px; }
 
@@ -1939,6 +1939,8 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .filter_layer .category .chkwrap input[type="checkbox"] + label { font-weight: 300; }
 
 /** member > login **/
+.member .page_summary { padding: 0 30px 28px 30px; }
+
 .member .row { margin-top: 40px; }
 
 .member .desc { margin-top: -10px; font-size: 12px; font-weight: 300; }
@@ -2049,6 +2051,14 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .introduction .prd_info .tit_brand { font-size: 17px; font-weight: 300; }
 
 .introduction .prd_info .code { display: inline-block; font-size: 13px; font-weight: 400; line-height: 1; color: #0053a7; border: 1px solid #0053a7; border-radius: 10px; padding: 2.5px 7.5px 3.5px; margin: 0 7.5px 7.5px 0; }
+
+.introduction .prd_info .etc { display: block; margin-top: 5px; }
+
+.introduction .prd_info .etc p { margin-bottom: 7px; font-weight: 300; font-size: 12px; color: #666666; }
+
+.introduction .prd_info .etc .btn { width: 120px; height: 24px; border-radius: 25px; line-height: 23px; background-color: #7b7b7b; color: #fff; text-align: center; }
+
+.introduction .prd_info .etc .btn i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-wh.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
 
 .introduction .prd_spec { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 25px 30px; border-top: 1px solid #eee; }
 
@@ -2875,9 +2885,15 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .solution_view .sub_block hr { width: calc(100% + 60px); height: 1px; margin-left: -30px; margin-top: 40px; margin-bottom: 40px; background-color: #e0e0e0; }
 
-.solution_view .sub_block .tit { margin-bottom: 15px; font-weight: 500; }
+.solution_view .sub_block .tit { margin-bottom: 30px; font-weight: 500; font-size: 14px; }
 
 .solution_view .sub_block .tit > span { display: block; font-size: 12px; font-weight: 300; color: #666666; }
+
+.solution_view .sub_block .tit > span.etc { font-size: 13px; }
+
+.solution_view .sub_block .tit > span.etc .btn { display: block; margin: 0; margin-top: 5px; width: 110px; height: 24px; border-radius: 25px; line-height: 23px; background-color: #7b7b7b; font-size: 12px; color: #fff; text-align: center; vertical-align: middle; }
+
+.solution_view .sub_block .tit > span.etc i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-wh.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
 
 .solution_view .sub_block h2 { position: relative; margin-bottom: 25px; font-size: 20px; }
 
