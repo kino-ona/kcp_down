@@ -404,7 +404,9 @@ h1.logo { display: block; width: 81px; height: 30px; margin: 0 auto; background-
 
 .footer .copyr { padding: 20px 30px 80px; border-top: 1px solid #4b4b4b; }
 
-.footer .copyr p { font-size: 12px; line-height: 24px; color: #eee; }
+.footer .copyr p { position: relative; padding-left: 8px; font-size: 12px; line-height: 24px; color: #eee; }
+
+.footer .copyr p span { position: absolute; left: 0; top: 0; display: inline-block; color: #eee; font-size: 16px; font-weight: 300; }
 
 .footer .copyr .btm { position: relative; padding: 15px 0 10px; }
 
