@@ -1960,6 +1960,14 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .member .pw .frm_group { padding-top: 40px; border-top: 1px solid #eee; }
 
 /** introduction **/
+.introduction .page_summary + .etc { display: block; margin-top: 15px; margin-left: 60px; }
+
+.introduction .page_summary + .etc p { margin-bottom: 7px; font-weight: 300; font-size: 14px; color: #666666; }
+
+.introduction .page_summary + .etc .btn { width: 120px; height: 24px; border-radius: 25px; line-height: 23px; background-color: #7b7b7b; color: #fff; text-align: center; }
+
+.introduction .page_summary + .etc .btn i { display: inline-block; width: 5px; height: 8px; background-image: url(../images/icon/ico_arr-wh.png); background-size: 5px; background-repeat: no-repeat; background-position: center center; margin-top: -2px; margin-left: 4px; vertical-align: middle; }
+
 .introduction .breadcrumb { padding: 0 30px; }
 
 .introduction .breadcrumb ul li { display: inline-block; padding-left: 18px; font-size: 12px; font-weight: 300; color: #666; background-image: url(../images/icon/ico_bread.png); background-repeat: no-repeat; background-position: 6px 50%; background-size: 6px auto; }
