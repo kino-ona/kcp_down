@@ -2762,11 +2762,11 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .eventpage .event_bg2 { padding-top: 930px; }
 
-.eventpage .event_bg2 .conts { bottom: 220px; left: 52.083%; width: 520px; }
+.eventpage .event_bg2 .conts { bottom: 200px; left: 53%; }
 
-.eventpage .event_bg2 .conts .info { display: inline-block; width: 250px; color: #666; font-size: 24px; font-weight: 350; line-height: 36px; letter-spacing: -0.02em; }
+.eventpage .event_bg2 .conts .info { display: inline-block; width: 270px; color: #666; font-size: 24px; font-weight: 350; line-height: 36px; letter-spacing: -0.02em; }
 
-.eventpage .event_bg2 .conts .info_2 { padding-left: 60px; }
+.eventpage .event_bg2 .conts .info_2 { padding-left: 10px; }
 
 .eventpage .event_bg3 { padding-top: 1060px; }
 

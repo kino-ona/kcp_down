@@ -3025,7 +3025,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .eventpage .event_bg2 { position: relative; padding-top: 75px; }
 
-.eventpage .event_bg2 .conts { top: 41%; left: 50%; width: 100%; max-width: 600px; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+.eventpage .event_bg2 .conts { top: 38%; left: 50%; width: 100%; max-width: 600px; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 
 .eventpage .event_bg2 .conts .info { float: left; width: 50%; color: #666; font-size: 12px; font-weight: 350; line-height: 18px; letter-spacing: -0.02em; text-align: left; padding-left: 17.5%; }
 
