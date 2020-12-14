@@ -849,6 +849,10 @@ input.datepicker, input.calendar { background-image: url(../images/icon/ico_cale
 
 .error_mssg strong { display: block; margin-top: 10px; margin-bottom: 10px; font-size: 1.6rem; font-weight: 700; color: #0053a7; }
 
+@media screen and (min-width: 768px) { .familysite { background-color: #222222; }
+  .familysite select { height: 43px; padding: 0 25px 0 0; background-color: #222222; }
+  .familysite option { background-color: #222222; } }
+
 .frm_group .sel_wrap:after, .footer .util:after, .gnb_menu .gnb_wrap:after, .order_list.type2 .info:after, .addphoto:after, .layer_body.lineuppopup .head .breadcr:after, .order .rent_write .sel_tab:after, .order .rent_write .total > div:after, .layer_body.stockpopup .stk_list li .elm:after, .partner .order_num:after, .partner .total:after, .custom .sort:after, .professional .about_sec4 ul:after, .professional .about_sec5 ul:after, .eventpage .event_bg2 .conts:after { content: ""; display: block; clear: both; }
 
 /** Swiper 4.5.0 Most modern mobile touch slider and framework with hardware accelerated transitions http://www.idangero.us/swiper/ Copyright 2014-2019 Vladimir Kharlampidi Released under the MIT License Released on: February 22, 2019 */
@@ -3023,7 +3027,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 
 .eventpage .event_bg1 .conts .btn { width: 90px; height: 28px; background-color: #fae900; border-radius: 40px; text-align: center; font-size: 11px; font-weight: 500; line-height: 28px; letter-spacing: -0.02em; -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3); box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3); }
 
-.eventpage .event_bg2 { position: relative; padding-top: 75px; }
+.eventpage .event_bg2 { position: relative; padding-top: 72px; }
 
 .eventpage .event_bg2 .conts { top: 38%; left: 50%; width: 100%; max-width: 600px; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 

@@ -316,7 +316,7 @@
 
 .partner_status .qty_list .title { font-size: 11px; color: #666666; }
 
-.partner_status .qty_list .qty { font-size: 22px; font-weight: 700; }
+.partner_status .qty_list .qty { font-size: 22px; font-weight: 700; cursor: default; }
 
 .layer_body.notiview .layer_head { padding-bottom: 15px; }
 
