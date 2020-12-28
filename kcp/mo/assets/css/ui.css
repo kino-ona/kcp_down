@@ -408,6 +408,8 @@ h1.logo { display: block; width: 81px; height: 30px; margin: 0 auto; background-
 
 .footer .addr > p span:first-child:before { display: none; }
 
+.footer .ic_mail { display: inline-block; margin-left: 3px; margin-top: -2px; width: 10px; height: 10px; background-image: url(../images/icon/btn_fmail.png); background-repeat: no-repeat; background-size: cover; background-position: center center; vertical-align: middle; }
+
 .footer .copyr { padding: 20px 30px 90px; border-top: 1px solid #4b4b4b; }
 
 .footer .copyr p { position: relative; padding-left: 10px; font-size: 12px; line-height: 24px; color: #eee; }

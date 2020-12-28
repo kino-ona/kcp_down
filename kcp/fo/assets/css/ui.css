@@ -502,6 +502,8 @@ h1.logo a { display: inline-block; width: 100%; height: 100%; }
 
 .footer .addr > p span:first-child:before { display: none; }
 
+.footer .addr .ic_mail { display: inline-block; margin-left: 3px; margin-top: -2px; width: 15px; height: 15px; background-image: url(../images/icon/icon_footer_mail.png); background-repeat: no-repeat; background-size: cover; background-position: center center; vertical-align: middle; }
+
 .footer .copyr { position: relative; max-width: 1200px; margin: 0 auto; padding: 40px 40px 100px; }
 
 .footer .copyr:before { content: ''; display: block; position: absolute; top: 0; width: 200%; height: 1px; background-color: #4b4b4b; }
